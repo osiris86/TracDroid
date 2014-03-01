@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ListView
+        android:id="@+id/ListViewInstances" 
+        android:divider="#e3e3e3" 
+        android:dividerHeight="1px" 
+        android:layout_width="match_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:textSize="18sp" 
+        android:drawSelectorOnTop="false" 
+        />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TracDroidImportCommunications">
+	<target name="-pre-build">
+		<echo level="info">//////////////////////////////////////</echo>
+		<echo level="info">// Building TracDroidCommunications //</echo>
+		<echo level="info">//////////////////////////////////////</echo>
+		<ant antfile="../TracDroidCommunications/build.xml" target="clean" inheritall="false"/>
+		<ant antfile="../TracDroidCommunications/build.xml" target="jar" inheritall="false"/>
+	</target>
+</project>

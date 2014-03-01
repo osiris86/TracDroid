@@ -1,0 +1,31 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+            android:title="@string/preferences_logindetails">
+
+        <ListPreference xmlns:android="http://schemas.android.com/apk/res/android"
+                android:key="field_topleft"
+                android:title="@string/preferences_fields_topleft"
+                android:dialogTitle="@string/preferences_fields_topleft" />
+
+        <ListPreference xmlns:android="http://schemas.android.com/apk/res/android"
+                android:key="field_topright"
+                android:title="@string/preferences_fields_topright"
+                android:dialogTitle="@string/preferences_fields_topright" />
+                
+        <ListPreference xmlns:android="http://schemas.android.com/apk/res/android"
+                android:key="field_bottomleft"
+                android:title="@string/preferences_fields_bottomleft"
+                android:dialogTitle="@string/preferences_fields_bottomleft" />
+                
+        <ListPreference xmlns:android="http://schemas.android.com/apk/res/android"
+                android:key="field_bottomright"
+                android:title="@string/preferences_fields_bottomright"
+                android:dialogTitle="@string/preferences_fields_bottomright"  />
+        
+    </PreferenceCategory>
+
+    
+
+</PreferenceScreen>

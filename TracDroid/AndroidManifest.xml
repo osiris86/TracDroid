@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="de.suwes.TracDroid.free"
+      android:versionCode="5"
+      android:versionName="1.0.3.35"
+      android:installLocation="auto">
+          
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="11" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+          
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:uiOptions="splitActionBarWhenNarrow">
+        <activity android:name="de.suwes.TracDroid.MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="de.suwes.TracDroid.TicketView" 
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="de.suwes.TracDroid.FilterView" 
+                  android:label="@string/title_filters"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="de.suwes.TracDroid.SingleFilterView" 
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="de.suwes.TracDroid.Preferences"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="de.suwes.TracDroid.InstancesView" 
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        
+        <provider
+            android:authorities="de.suwes.TracDroid.Database"
+            android:name="de.suwes.TracDroid.Database.DataProvider" 
+            android:exported="false">
+        </provider> 
+    </application>
+</manifest>

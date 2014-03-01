@@ -1,0 +1,11 @@
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="de.suwes.TracDroid.Preferences$LoginDetails"
+            android:title="@string/preferences_logindetails"
+            android:summary="@string/preferences_logindetails_summary" />
+
+    <header android:fragment="de.suwes.TracDroid.Preferences$Fields"
+            android:title="@string/preferences_fields"
+            android:summary="@string/preferences_fields_summary" />
+</preference-headers>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TracDroid</string>
+    
+    <string name="default_instance_name">Unbenannt</string>
+    
+    <string name="error_connect">Verbindung zum Trac konnte nicht hergestellt werden. Überprüfen Sie die Einstellungen.</string>
+    <string name="error_default_filter_cant_delete">Der Standard-Filter kann nicht gelöscht werden.</string>
+    <string name="error_deleting_filter">Der Filter konnte nicht gelöscht werden.</string>
+    <string name="error_leave_one_default_filter">Es muss immer mindestens einenen globalen Filter geben, deshalb kann dieser nicht gelöscht werden.</string>
+    <string name="error_loadFilter">Der Filter konnte nicht geladen werden.</string>
+    <string name="error_loadFilters">Der Filter konnte nicht aus der Datenbank geladen werden.</string>
+    <string name="error_loadFilterfields">Die Felder für einen bestimmten Filter konnten nicht geladen werden.</string>
+    <string name="error_noActivity">Keine Activity gefunden um das folgende zu öffnen:</string>
+    <string name="error_noTickets">Keine Tickets gefunden. Bitte überprüfen Sie ob Sie die Berechtigung zur Ansicht von Tickets haben.</string>
+    <string name="error_noInstances">Noch keine Instanz angelegt. Benutzen Sie den Plus-Button um eine neue Instanz anzulegen.</string>
+    <string name="error_noInstances_tickets">Noch keine Instanz angelegt. Benutzen Sie den Settings-Button um eine neue Instanz anzulegen.</string>
+    <string name="error_only_paid_version">Dieses Feature ist nur in der Pro-Version verfügbar. Klicken Sie auf den Button unten, um zu Play-Store zu gelangen.</string>
+    <string name="error_only_paid_version_instances">Mehrere Instanzen sind nur mit der Pro Version der App möglich. Klicken Sie auf den Button unten, um zu Play-Store zu gelangen.</string>
+    <string name="error_saveFilter">Der Filter konnte nicht gespeichert werden.</string>
+    <string name="error_saveInstance">Die Instanz konnte nicht gespeichert werden.</string>
+    <string name="error_loadInstances">Die Instanzen konnten nicht aus der Datenbank geladen werden.</string>
+    <string name="error_loadTickets">Tickets konnten nicht geladen werden. Bitte überprüfen Sie die Login Details und stellen Sie sicher, dass Sie eine Internetverbindung haben.</string>
+    <string name="error_loadWiki">Wiki Seite konnte nicht geladen werden. Bitte überprüfen Sie die Login Details und stellen Sie sicher, dass Sie eine Internetverbindung haben.</string>
+    <string name="error_loadFields">Felder konnten nicht geladen werden. Bitte überprüfen Sie die Login Details und stellen Sie sicher, dass Sie eine Internetverbindung haben.</string>
+    <string name="error_loadTicket">Ticket konnte nicht geladen werden. Bitte überprüfen Sie die Login Details und stellen Sie sicher, dass Sie eine Internetverbindung haben.</string>
+    <string name="error_saveTicket">Beim Speichern des Tickets ist ein Fehler aufgetreten.</string>
+    <string name="error_loadAvailableFields">Verfügbare Felder konnten nicht geladen werden. Bitte geben Sie zuvor die Login details an.</string>
+    
+    <string name="label_all_instances">Alle Instanzen</string>
+    <string name="label_and">und</string>
+    <string name="label_cancel">Abbrechen</string>
+    <string name="label_default">(Standard)</string>
+    <string name="label_name">Filtername:</string>
+    <string name="label_type">Typ:</string>
+    <string name="label_instance">Instanz:</string>
+    <string name="label_owner">Verantwortl.:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_market">To the Play store</string>
+    <string name="label_milestone">Meilenstein:</string>
+    <string name="label_comment">Kommentar</string>
+    <string name="label_groupby">Gruppieren</string>
+    <string name="label_history_seperator_1">Geändert</string>
+    <string name="label_history_seperator_2">von</string>
+    <string name="label_history_change_from">von</string>
+    <string name="label_history_change_set"></string>
+    <string name="label_history_change_from_to">nach</string>
+    <string name="label_history_change_set_to">auf</string>
+    <string name="label_history_change_from_changed">geändert</string>
+    <string name="label_history_change_set_changed">gesetzt</string>
+    <string-array name="group_bys">
+        <item>Nicht gruppieren</item>
+        <item>Meilensteine</item>
+        <item>Komponenten</item>
+        <item>Status</item>
+    </string-array>
+    
+    <string name="title_filters">Verfügbare Filter</string>
+    <string name="title_filter_new">Neuer Filter</string>
+    <string name="title_filter_edit">Filter bearbeiten</string>
+    <string name="title_instances">Verfügbare Instanzen</string>
+    <string name="title_preferences">Einstellungen</string>
+    <string name="title_ticket_new">Neues Ticket</string>
+    <string name="title_ticket_edit">Ticket bearbeiten</string>
+    <string name="title_ticket">Ticket</string>
+    <string name="title_history">History</string>
+    <string name="title_select_instance">Wählen Sie eine Instanz</string>
+    <string name="title_tickets">Tickets</string>
+    <string name="title_wiki">Wiki</string>
+    
+    <string name="menu_ticket_add">Ticket hinzufügen</string>
+    <string name="menu_filter">Tickets filtern</string>
+    <string name="menu_filter_add">Filter hinzufügen</string>
+    <string name="menu_filter_save">Filter speichern</string>
+    <string name="menu_filters_default">Als Standard festlegen</string>
+    <string name="menu_filters_delete">Filter löschen</string>
+    <string name="menu_filters_edit">Filter bearbeiten</string>
+    <string name="menu_instances_add">Instanz hinzufügen</string>
+    <string name="menu_instances_default">Als Standard festlegen</string>
+    <string name="menu_instances_delete">Instanz löschen</string>
+    <string name="menu_instances_edit">Instanz bearbeiten</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_preferences">Einstellungen</string>
+    <string name="menu_select_instance">Instanz auswählen</string>
+    
+    <string name="btn_ticket_new">Ticket speichern</string>
+    <string name="btn_ticket_change">Änderungen speichern</string>
+    
+    <string name="operator_equals">=</string>
+    <string name="operator_notequal">!=</string>
+    <string name="operator_greater">&gt;</string>
+    <string name="operator_greaterequal">&gt;=</string>
+    <string name="operator_smaller">&lt;</string>
+    <string name="operator_smallerequal">&lt;=</string>
+    
+    <string name="preferences_logindetails_name">Name</string>
+    <string name="preferences_logindetails_name_summary">Der Name dieser Trac Instanz; Wird nur verwendet um zwischen den Instanzen zu unterscheiden</string>
+    <string name="preferences_logindetails">Login Details</string>
+    <string name="preferences_logindetails_summary">Ihre Login Details um sich an der Trac-Instanz einzuloggen.</string>
+    <string name="preferences_fields">Ticketfeld in Liste</string>
+    <string name="preferences_fields_summary">Legt fest, welche Felder in der Ticketliste angezeigt werden sollen.</string>
+    
+    <string name="preferences_logindetails_url">Trac URL</string>
+    <string name="preferences_logindetails_url_summary">Die URL Ihrer Trac-Instanz; Inklusive des /login/rpc Teils der URL.</string>
+    <string name="preferences_logindetails_username">Benutzername</string>
+    <string name="preferences_logindetails_password">Passwort</string>
+    
+    <string name="ticketview_change">Ticket ändern</string>
+    
+    <string name="wikiview_back">Zurück</string>
+    <string name="wikiview_current_page">Aktuelle Seite:</string>
+</resources>

@@ -1,0 +1,36 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/preferences_logindetails">
+                
+        <EditTextPreference
+                android:key="name"
+                android:title="@string/preferences_logindetails_name"
+                android:summary="@string/preferences_logindetails_name_summary"
+                android:dialogTitle="@string/preferences_logindetails_name" />
+
+        <EditTextPreference
+                android:key="url"
+                android:title="@string/preferences_logindetails_url"
+                android:summary="@string/preferences_logindetails_url_summary"
+                android:dialogTitle="@string/preferences_logindetails_url" />
+                
+
+        <EditTextPreference
+                android:key="username"
+                android:title="@string/preferences_logindetails_username"
+                android:dialogTitle="@string/preferences_logindetails_username" />
+                
+        <EditTextPreference
+                android:key="password"
+                android:title="@string/preferences_logindetails_password"
+                android:dialogTitle="@string/preferences_logindetails_password" 
+                android:inputType="textPassword" />/>
+
+        
+    </PreferenceCategory>
+
+    
+
+</PreferenceScreen>

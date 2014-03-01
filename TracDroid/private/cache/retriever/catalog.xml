@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://schemas.android.com/apk/res/android" uri="navigationshilfe1.t-online.de/dnserror.url_http_/schemas.android.com/index.xml"/>
+    <system systemId="http://schemas.android.com/apk/lib/com.google.ads" uri="navigationshilfe1.t-online.de/dnserror.url_http_/schemas.android.com/index.xml"/>
+</catalog>

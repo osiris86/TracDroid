@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TracDroid</string>
+    
+    <string name="default_instance_name">Unnamed</string>
+    
+    <string name="error_connect">Failed to connect to Trac. Check your settings.</string>
+    <string name="error_default_filter_cant_delete">You cannot delete the default filter</string>
+    <string name="error_deleting_filter">The filter could not be deleted</string>
+    <string name="error_leave_one_global_filter">There has to be at least one global filter. That\'s why this filter can\'t be deleted.</string>
+    <string name="error_loadFilter">Unable to load filter.</string>
+    <string name="error_loadFilters">Unable to load filters out of the database.</string>
+    <string name="error_loadFilterfields">Unable to load fields for a specific filter.</string>
+    <string name="error_noActivity">No activity found to open:</string>
+    <string name="error_noTickets">No tickets found. Check if you have authorisation to view tickets</string>
+    <string name="error_noInstances">No instances created yet. Use the Plus-Button below to create a new one.</string>
+    <string name="error_noInstances_tickets">No instances created yet. Use the settings button to create a new one.</string>
+    <string name="error_only_paid_version">This feature is only available in the pro version. Please click the button below to get to the Play store.</string>
+    <string name="error_only_paid_version_instances">You can manage multiple instance only with the pro version of this app. Please click the button below to get to the Play store.</string>
+    <string name="error_saveFilter">The filter could not be saved.</string>
+    <string name="error_saveInstance">The instance could not be saved.</string>
+    <string name="error_loadInstances">Unable to load instances out of the database.</string>
+    <string name="error_loadTickets">Unable to load tickets. Check your connection details and ensure you have internet connection.</string>
+    <string name="error_loadWiki">Unable to load wiki page. Check your connection details and ensure you have internet connection.</string>
+    <string name="error_loadFields">Unable to load fields. Check your connection details and ensure you have internet connection.</string>
+    <string name="error_loadTicket">Unable to load ticket. Check your connection details and ensure you have internet connection.</string>
+    <string name="error_saveTicket">An error occurred while trying to save the ticket.</string>
+    <string name="error_loadAvailableFields">Unable to load available fields. Ensure that you set your connection details first.</string>
+    
+    <string name="label_all_instances">All Instances</string>
+    <string name="label_and">and</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_default">(default)</string>
+    <string name="label_name">Name of the filter:</string>
+    <string name="label_type">Type:</string>
+    <string name="label_instance">Instance:</string>
+    <string name="label_owner">Owner:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_market">To the Play Store</string>
+    <string name="label_milestone">Milestone:</string>
+    <string name="label_comment">Comment</string>
+    <string name="label_groupby">Group by</string>
+    <string name="label_history_seperator_1">Changed</string>
+    <string name="label_history_seperator_2">by</string>
+    <string name="label_history_change_from">changed from</string>
+    <string name="label_history_change_set">set</string>
+    <string name="label_history_change_from_to">to</string>
+    <string name="label_history_change_set_to">to</string>
+    <string name="label_history_change_from_changed"></string>
+    <string name="label_history_change_set_changed"></string>
+    <string-array name="group_bys">
+        <item>Nothing</item>
+        <item>Milestones</item>
+        <item>Components</item>
+        <item>Status</item>
+    </string-array>
+    
+    <string name="title_filters">Available filters</string>
+    <string name="title_filter_new">New filter</string>
+    <string name="title_filter_edit">Edit filter</string>
+    <string name="title_instances">Available instances</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_ticket_new">New ticket</string>
+    <string name="title_ticket_edit">Edit ticket</string>
+    <string name="title_ticket">Ticket</string>
+    <string name="title_history">History</string>
+    <string name="title_select_instance">Select an instance</string>
+    <string name="title_tickets">Tickets</string>
+    <string name="title_wiki">Wiki</string>
+    
+    <string name="menu_ticket_add">Add ticket</string>
+    <string name="menu_filter">Filter tickets</string>
+    <string name="menu_filter_add">Add filter</string>
+    <string name="menu_filter_save">Save filter</string>
+    <string name="menu_filters_default">Set as default</string>
+    <string name="menu_filters_delete">Delete filter</string>
+    <string name="menu_filters_edit">Edit filter</string>
+    <string name="menu_instances_add">Add instance</string>
+    <string name="menu_instances_default">Set as default</string>
+    <string name="menu_instances_delete">Delete instance</string>
+    <string name="menu_instances_edit">Edit instance</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_select_instance">Select instance</string>
+    
+    <string name="btn_ticket_new">Create ticket</string>
+    <string name="btn_ticket_change">Save changes</string>
+    
+    <string name="operator_equals">=</string>
+    <string name="operator_notequal">!=</string>
+    <string name="operator_greater">&gt;</string>
+    <string name="operator_greaterequal">&gt;=</string>
+    <string name="operator_smaller">&lt;</string>
+    <string name="operator_smallerequal">&lt;=</string>
+    
+    <string name="preferences_logindetails">Login Details</string>
+    <string name="preferences_logindetails_summary">Your login details for your Trac instance</string>
+    <string name="preferences_fields">Ticketfields in List</string>
+    <string name="preferences_fields_summary">Set the fields you see on the ticket list</string>
+    
+    <string name="preferences_logindetails_name">Name</string>
+    <string name="preferences_logindetails_name_summary">The name of this Trac instance; only used to distinguish between instances</string>
+    <string name="preferences_logindetails_url">Trac URL</string>
+    <string name="preferences_logindetails_url_summary">The URL to your Trac instance; including the /login/rpc part of the URL.</string>
+    <string name="preferences_logindetails_username">Username</string>
+    <string name="preferences_logindetails_password">Password</string>
+    
+    <string name="preferences_fields_topleft">Top left</string>
+    <string name="preferences_fields_topright">Top right</string>
+    <string name="preferences_fields_bottomleft">Bottom left</string>
+    <string name="preferences_fields_bottomright">Bottom right</string>
+    
+    <string name="ticketview_change">Change ticket</string>
+    
+    <string name="wikiview_back">Back</string>
+    <string name="wikiview_current_page">Current Page:</string>
+</resources>

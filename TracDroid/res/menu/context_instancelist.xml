@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/delete"
+     android:icon="@drawable/ic_menu_delete"
+     android:title="@string/menu_instances_delete"
+     android:showAsAction="ifRoom" />
+    <item android:id="@+id/asdefault"
+     android:icon="@drawable/ic_menu_mark"
+     android:title="@string/menu_instances_default"
+     android:showAsAction="ifRoom" />
+</menu>
